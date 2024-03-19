@@ -26,7 +26,7 @@ body{
 
 
 .container{
-    max-width: 1020px;
+    max-width: 1100px;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -43,7 +43,7 @@ body{
 }
 
 .left {
-    padding: 60px 60px;
+    padding: 70px 90px 20px 60px;
 }
 
 .right img {
@@ -71,6 +71,7 @@ body{
 }
 
 h1 {
+    font-size: 36px;
     color: var(--main-heading-stats);
     margin-bottom: 1.6rem;
 }
@@ -80,7 +81,7 @@ p{
     font-size: 14px;
     line-height: 23px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 h1 > span {
@@ -96,15 +97,15 @@ h1 > span {
 
 .wrapper .left .stats h5 {
     color: var(--main-heading-stats);
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .wrapper .left .stats small{
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 12px;
     color: var(--stat-heading);
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .wrapper .left .stats .state{
     padding-right: 1px;
